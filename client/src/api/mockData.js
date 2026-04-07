@@ -1,0 +1,48 @@
+﻿/**
+ * Mock 数据 - 部分国家示例（完整 195 国数据将在 seed.js 中生成）
+ * image_url 使用 Wikimedia Commons Special:FilePath（官方推荐方式，无缩略图限流）
+ */
+const W = 'https://commons.wikimedia.org/wiki/Special:FilePath/'
+const S = '?width=500'
+export default [
+  { id: 1, country_name: '中国', country_code: 'CN', latitude: 35.86, longitude: 104.20, landmark_name: '长城', description: '中国古代伟大的军事防御工程，是世界文化遗产，象征着中华民族的坚韧精神。', icon_url: '', image_url: W+'The_Great_Wall_of_China_at_Jinshanling-edit.jpg'+S, category: '建筑' },
+  { id: 2, country_name: '法国', country_code: 'FR', latitude: 48.86, longitude: 2.35, landmark_name: '埃菲尔铁塔', description: '巴黎的标志性建筑，建于1889年，是法国最著名的地标之一。', icon_url: '', image_url: W+'Tour_Eiffel_Wikimedia_Commons.jpg'+S, category: '建筑' },
+  { id: 3, country_name: '美国', country_code: 'US', latitude: 38.90, longitude: -77.04, landmark_name: '自由女神像', description: '位于纽约港的巨型雕像，是美国自由与民主的象征。', icon_url: '', image_url: W+'Statue_of_Liberty_7.jpg'+S, category: '建筑' },
+  { id: 4, country_name: '英国', country_code: 'GB', latitude: 51.51, longitude: -0.13, landmark_name: '大本钟', description: '伦敦著名的钟楼，是英国文化的标志性符号。', icon_url: '', image_url: W+'Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg'+S, category: '建筑' },
+  { id: 5, country_name: '意大利', country_code: 'IT', latitude: 41.90, longitude: 12.50, landmark_name: '罗马斗兽场', description: '古罗马时期最大的圆形竞技场，是罗马帝国的象征。', icon_url: '', image_url: W+'Colosseo_2020.jpg'+S, category: '景点' },
+  { id: 6, country_name: '日本', country_code: 'JP', latitude: 35.68, longitude: 139.69, landmark_name: '富士山', description: '日本最高峰，被视为日本精神与文化的象征。', icon_url: '', image_url: W+'MtFuji_FujiCity.jpg'+S, category: '景点' },
+  { id: 7, country_name: '印度', country_code: 'IN', latitude: 27.17, longitude: 78.04, landmark_name: '泰姬陵', description: '印度最著名的建筑，是莫卧儿帝国时期的杰作，象征着永恒的爱情。', icon_url: '', image_url: W+'Taj_Mahal%2C_Agra%2C_India_edit3.jpg'+S, category: '建筑' },
+  { id: 8, country_name: '埃及', country_code: 'EG', latitude: 29.98, longitude: 31.13, landmark_name: '金字塔', description: '古埃及法老的陵墓，是世界七大奇迹之一。', icon_url: '', image_url: W+'Kheops-Pyramid.jpg'+S, category: '建筑' },
+  { id: 9, country_name: '巴西', country_code: 'BR', latitude: -22.95, longitude: -43.17, landmark_name: '基督像', description: '里约热内卢的标志，矗立在科科瓦多山顶的巨型耶稣基督雕像。', icon_url: '', image_url: W+'Christ_the_Redeemer_-_Cristo_Redentor.jpg'+S, category: '建筑' },
+  { id: 10, country_name: '澳大利亚', country_code: 'AU', latitude: -33.86, longitude: 151.21, landmark_name: '悉尼歌剧院', description: '澳大利亚地标建筑，以其独特的帆船造型闻名于世。', icon_url: '', image_url: W+'Sydney_Opera_House_-_Dec_2008.jpg'+S, category: '建筑' },
+  { id: 11, country_name: '俄罗斯', country_code: 'RU', latitude: 55.75, longitude: 37.62, landmark_name: '克里姆林宫', description: '莫斯科的心脏，俄罗斯联邦的政治中心和世界文化遗产。', icon_url: '', image_url: W+'View_to_Moscow_river_from_Bolshoy_Moskvoretsky_Bridge.jpg'+S, category: '建筑' },
+  { id: 12, country_name: '德国', country_code: 'DE', latitude: 52.52, longitude: 13.41, landmark_name: '勃兰登堡门', description: '柏林的标志性建筑，是德国统一与和平的象征。', icon_url: '', image_url: W+'Brandenburger_Tor_abends.jpg'+S, category: '建筑' },
+  { id: 13, country_name: '西班牙', country_code: 'ES', latitude: 41.39, longitude: 2.17, landmark_name: '圣家族大教堂', description: '高迪设计的巴塞罗那教堂，是加泰罗尼亚现代主义建筑的杰作。', icon_url: '', image_url: W+'Sagrada_Familia_nave_roof_detail.jpg'+S, category: '建筑' },
+  { id: 14, country_name: '墨西哥', country_code: 'MX', latitude: 20.68, longitude: -88.57, landmark_name: '奇琴伊察', description: '玛雅文明的重要遗址，以库库尔坎金字塔闻名。', icon_url: '', image_url: W+'Chichen_Itza_3.jpg'+S, category: '景点' },
+  { id: 15, country_name: '秘鲁', country_code: 'PE', latitude: -13.16, longitude: -72.55, landmark_name: '马丘比丘', description: '印加帝国的古城遗址，被称为"天空之城"。', icon_url: '', image_url: W+'Machu_Picchu%2C_Peru.jpg'+S, category: '景点' },
+  { id: 16, country_name: '土耳其', country_code: 'TR', latitude: 41.01, longitude: 28.98, landmark_name: '圣索菲亚大教堂', description: '伊斯坦布尔的历史建筑，曾为教堂、清真寺，现为博物馆。', icon_url: '', image_url: W+'Hagia_Sophia_Mars_2013.jpg'+S, category: '建筑' },
+  { id: 17, country_name: '希腊', country_code: 'GR', latitude: 37.97, longitude: 23.73, landmark_name: '帕特农神庙', description: '雅典卫城的古希腊神庙，是西方文明的象征。', icon_url: '', image_url: W+'The_Parthenon_in_Athens.jpg'+S, category: '建筑' },
+  { id: 18, country_name: '韩国', country_code: 'KR', latitude: 37.57, longitude: 126.98, landmark_name: '景福宫', description: '首尔最大的古代宫殿，朝鲜王朝的正宫。', icon_url: '', image_url: W+'Gyeonghoeru_%28Royal_Banquet_Hall%29_at_Gyeongbokgung_Palace%2C_Seoul.jpg'+S, category: '建筑' },
+  { id: 19, country_name: '泰国', country_code: 'TH', latitude: 13.75, longitude: 100.49, landmark_name: '大皇宫', description: '曼谷最著名的建筑群，泰国王室的象征。', icon_url: '', image_url: W+'Wat_Phra_Sri_Rattana_Satsadaram_07.jpg'+S, category: '建筑' },
+  { id: 20, country_name: '柬埔寨', country_code: 'KH', latitude: 13.41, longitude: 103.87, landmark_name: '吴哥窟', description: '世界上最大的宗教建筑，高棉帝国的辉煌遗产。', icon_url: '', image_url: W+'Angkor_Wat.jpg'+S, category: '景点' },
+  { id: 21, country_name: '加拿大', country_code: 'CA', latitude: 56.13, longitude: -106.35, landmark_name: '尼亚加拉瀑布', description: '世界三大瀑布之一，横跨美加边境的壮观自然奇观。', icon_url: '', image_url: W+'3Falls_Niagara.jpg'+S, category: '景点' },
+  { id: 22, country_name: '阿根廷', country_code: 'AR', latitude: -34.60, longitude: -58.38, landmark_name: '方尖碑', description: '布宜诺斯艾利斯的标志性纪念碑，纪念城市建立400周年。', icon_url: '', image_url: W+'Obelisco_de_Buenos_Aires%2C_with_traffic_lights.jpg'+S, category: '建筑' },
+  { id: 23, country_name: '南非', country_code: 'ZA', latitude: -33.92, longitude: 18.42, landmark_name: '桌山', description: '开普敦的标志性山脉，以其平坦的山顶闻名于世。', icon_url: '', image_url: W+'Cape_Town_%28ZA%29%2C_Table_Mountain_--_2024_--_2825.jpg'+S, category: '景点' },
+  { id: 24, country_name: '肯尼亚', country_code: 'KE', latitude: -1.29, longitude: 36.82, landmark_name: '马赛马拉', description: '世界著名的野生动物保护区，每年上演壮观的动物大迁徙。', icon_url: '', image_url: W+'Wildebeest_crossing_river_-_Stefan_Swanepoel.jpg'+S, category: '景点' },
+  { id: 25, country_name: '摩洛哥', country_code: 'MA', latitude: 33.97, longitude: -6.85, landmark_name: '哈桑二世清真寺', description: '卡萨布兰卡的地标建筑，世界第三大清真寺。', icon_url: '', image_url: W+'Hassan_II_Mosque_Plaza.jpg'+S, category: '建筑' },
+  { id: 26, country_name: '新西兰', country_code: 'NZ', latitude: -41.29, longitude: 174.78, landmark_name: '米尔福德峡湾', description: '新西兰最著名的峡湾，被誉为"世界第八大奇迹"。', icon_url: '', image_url: W+'Milford_Sound_%28New_Zealand%29.JPG'+S, category: '景点' },
+  { id: 27, country_name: '印度尼西亚', country_code: 'ID', latitude: -7.61, longitude: 110.20, landmark_name: '婆罗浮屠', description: '世界上最大的佛教寺庙，爪哇岛上的古代奇迹。', icon_url: '', image_url: W+'Borobudur-Nothwest-view.jpg'+S, category: '景点' },
+  { id: 28, country_name: '越南', country_code: 'VN', latitude: 20.96, longitude: 107.05, landmark_name: '下龙湾', description: '越南最著名的自然景观，石灰岩岛屿星罗棋布的海上仙境。', icon_url: '', image_url: W+'Ha_Long_Bay%2C_Vietnam.jpg'+S, category: '景点' },
+  { id: 29, country_name: '阿联酋', country_code: 'AE', latitude: 25.20, longitude: 55.27, landmark_name: '哈利法塔', description: '迪拜的超级摩天大楼，世界上最高的建筑。', icon_url: '', image_url: W+'Burj_dubai_3.11.08.jpg'+S, category: '建筑' },
+  { id: 30, country_name: '约旦', country_code: 'JO', latitude: 30.33, longitude: 35.44, landmark_name: '佩特拉古城', description: '纳巴泰人在岩石中雕凿的古城，被称为"玫瑰之城"。', icon_url: '', image_url: W+'The_Monastery%2C_Petra%2C_Jordan8.jpg'+S, category: '景点' },
+  { id: 31, country_name: '尼泊尔', country_code: 'NP', latitude: 27.99, longitude: 86.93, landmark_name: '珠穆朗玛峰', description: '世界最高峰，海拔8848.86米，位于中尼边境。', icon_url: '', image_url: W+'Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg'+S, category: '景点' },
+  { id: 32, country_name: '智利', country_code: 'CL', latitude: -27.12, longitude: -109.35, landmark_name: '复活节岛石像', description: '太平洋上神秘的巨石像，拉帕努伊文明的遗产。', icon_url: '', image_url: W+'Moai_Rano_raraku.jpg'+S, category: '景点' },
+  { id: 33, country_name: '伊朗', country_code: 'IR', latitude: 32.66, longitude: 51.68, landmark_name: '伊玛目广场', description: '伊斯法罕的历史广场，波斯建筑艺术的杰出代表。', icon_url: '', image_url: W+'Naghshe_Jahan_Square_Isfahan_modified.jpg'+S, category: '景点' },
+  { id: 34, country_name: '葡萄牙', country_code: 'PT', latitude: 38.69, longitude: -9.22, landmark_name: '贝伦塔', description: '里斯本的防御塔楼，大航海时代的象征。', icon_url: '', image_url: W+'Torre_Bel%C3%A9m_April_2009-4a.jpg'+S, category: '建筑' },
+  { id: 35, country_name: '荷兰', country_code: 'NL', latitude: 52.37, longitude: 4.90, landmark_name: '风车村', description: '荷兰标志性的风车景观，记录着与水斗争的历史。', icon_url: '', image_url: W+'Zaanse_Schans_windmills_-_panoramio.jpg'+S, category: '文化符号' },
+  { id: 36, country_name: '瑞士', country_code: 'CH', latitude: 46.95, longitude: 7.45, landmark_name: '马特洪峰', description: '阿尔卑斯山最著名的山峰，以其锥形山顶闻名。', icon_url: '', image_url: W+'Matterhorn_Riffelsee_2005-06-11.jpg'+S, category: '景点' },
+  { id: 37, country_name: '奥地利', country_code: 'AT', latitude: 48.21, longitude: 16.37, landmark_name: '美泉宫', description: '维也纳的巴洛克宫殿，哈布斯堡王朝的夏宫。', icon_url: '', image_url: W+'Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_1%29.jpg'+S, category: '建筑' },
+  { id: 38, country_name: '瑞典', country_code: 'SE', latitude: 59.33, longitude: 18.07, landmark_name: '瓦萨号博物馆', description: '斯德哥尔摩的独特博物馆，展示17世纪沉船。', icon_url: '', image_url: W+'Vasa_from_above.jpg'+S, category: '文化符号' },
+  { id: 39, country_name: '挪威', country_code: 'NO', latitude: 60.47, longitude: 6.73, landmark_name: '峡湾', description: '挪威最壮观的自然景观，冰川侵蚀形成的狭长海湾。', icon_url: '', image_url: W+'Geirangerfjorden.jpg'+S, category: '景点' },
+  { id: 40, country_name: '丹麦', country_code: 'DK', latitude: 55.68, longitude: 12.59, landmark_name: '小美人鱼', description: '哥本哈根港口的铜像，安徒生童话的象征。', icon_url: '', image_url: W+'The_Little_Mermaid_home.jpg'+S, category: '文化符号' }
+]
